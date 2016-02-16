@@ -3,8 +3,10 @@ $(function(){
 
 	// 上导航列表
 	$('.oneblock2').hover(function(){
+		$('.oneblock1').hide();
 		$(this).find('.oneblock1').slideDown();
 	},function(){
+		$('.oneblock1').hide();
 		$(this).find('.oneblock1').slideUp();
 	});
 	// 字体颜色变化
